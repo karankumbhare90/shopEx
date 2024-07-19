@@ -1,0 +1,29 @@
+.footer {
+    position: sticky;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text-center {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+p a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}

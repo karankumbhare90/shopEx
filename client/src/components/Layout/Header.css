@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular");
+
+.navbar {
+    width: 100vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-content: center;
+    gap: 5px;
+}
+
+a.navbar-brand.active {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-icon {
+    font-size: 35px;
+}
+
+.logo-text {
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Pacifico';
+}
+
+.nav-link {
+    font-size: 15px;
+    color: black;
+}
+
+.nav-item {
+    font-size: 15px;
+    margin: 0 2px;
+    font-weight: 500;
+    color: black;
+}
+
+.dropdown-menu {
+    color: black;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.dropdown-item {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 2px 0;
+}
+
+.navbar-toggler {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+
+.navbar-toggler:focus {
+    border: 2px solid #9d9d9d;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+
+.navbar-toggler-icon {
+    color: black;
+    font-weight: 500;
+}

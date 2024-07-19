@@ -1,0 +1,42 @@
+.admin {
+    width: 100%;
+    display: flex;
+    min-height: 44vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    gap: 20px;
+}
+
+.mar {
+    margin-bottom: 15px;
+}
+
+.imgcl {
+    height: 150px;
+    width: 150px;
+    outline: 3px solid #ccc;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.imgcl img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.details span {
+    font-size: 20px;
+    font-weight: 500;
+}

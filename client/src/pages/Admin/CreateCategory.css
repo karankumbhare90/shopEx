@@ -1,0 +1,32 @@
+.create-category {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    gap: 20px;
+}
+
+.category-details {
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.c-details {
+    margin: 20px 0;
+}
+
+td {
+    text-transform: capitalize;
+}
+
+.category-btns {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-btns .btn {
+    width: 15%;
+    font-size: 14px;
+    padding: 5px;
+}

@@ -1,0 +1,14 @@
+.cart-name {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.img-class {
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 4px;
+}

@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+form input {
+    width: 200px;
+}
+
+form .btn {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* .btns {
+    width: 20%;
+} */
+
+.btnss {
+    width: 20%;
+}

@@ -1,0 +1,149 @@
+.container-fluid {
+    width: 100%;
+}
+
+.home-container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.image-section {
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.image-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
+
+.image-section .description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.description .slogan {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.description .para {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.heading {
+    margin-bottom: 10px;
+    font-weight: 500;
+    position: relative;
+}
+
+.items {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.last-items {
+    margin-bottom: 30px;
+}
+
+.filters {
+    padding: 15px;
+    position: sticky;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.products .heading {
+    font-size: 40px;
+    font-weight: 550;
+    padding-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    min-width: 250px;
+    min-height: 300px;
+    outline: none;
+    border-radius: 0;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.4) 4px 8px 24px;
+}
+
+.card-img {
+    width: 205px;
+}
+
+.card-img img {
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.card-body {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 13px;
+}
+
+.card-body .card-des {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.card-title {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.card-price {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 12px;
+    margin: 5px 0 10px 0;
+    font-weight: 500;
+}
+
+.card-body .btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.btns .btn {
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: 500;
+    margin: 0;
+}
