@@ -1,16 +1,27 @@
-# ShopEx
 
-This is ecommerce web application, based on MERN Stack.
-and some others library.
+## Clone the project
 
-# Run the command 
-git clone https://github.com/karankumbhare90/shopEx.git
+To clone project, run the following command
 
-cd shopEx 
+```bash
+  git clone https://github.com/karankumbhare90/shopEx.git
+```
 
-# Start working on the project
+After clonning
+```bash
+  cd shopEx 
+```
 
-After clonnig 
-run the command.
+## Start working on the project
 
+After clonnig run the command
+```bash
 npm install
+```
+
+After installing all library run the below command
+
+```bash
+npm start
+```
+
